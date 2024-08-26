@@ -1,0 +1,9 @@
+.widget-card {
+    background: rgb(30, 42, 62);
+    transition: all 0.2s ease-in-out;
+    border-radius: 30px;
+}
+
+.widget-card:hover {
+    transform: scale(1.05);
+}

@@ -1,0 +1,43 @@
+.rotate{
+    animation: rotate 4s linear infinite;
+}
+
+@keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  .custom-audio-player {
+    position: relative;
+    width: 100%;
+  }
+  
+  .custom-controls {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 10px;
+  }
+  
+  .custom-controls button {
+    background-color: #444;
+    /* color: white; */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .custom-controls button:hover {
+    background-color: #666;
+  }
+  
+  .custom-controls button:focus {
+    outline: none;
+  }

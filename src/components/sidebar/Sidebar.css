@@ -1,0 +1,22 @@
+.active {
+    background: #966d42 !important;
+    color: #e6dddd !important;
+    font-weight: bold !important;
+}
+
+.sidebar-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.sidebar-tab {
+    padding: 8px;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+.sidebar-tab:hover {
+    background: #966d42;
+}
